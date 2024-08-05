@@ -12,6 +12,7 @@ public class Program2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
+		//Department
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 
 		System.out.println("=== TEST 1: findById =======");
