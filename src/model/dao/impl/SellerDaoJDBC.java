@@ -13,8 +13,8 @@ import java.util.Map;
 import db.DB;
 import db.DbException;
 import model.dao.SellerDao;
-import model_entities.Department;
-import model_entities.Seller;
+import model.entities.Department;
+import model.entities.Seller;
 
 public class SellerDaoJDBC implements SellerDao {
 
